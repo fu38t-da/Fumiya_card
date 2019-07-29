@@ -13,8 +13,10 @@ body {
 .container {
   box-sizing: border-box;
   width: 315px;
-  background-color: orange;
   padding: 19px 20px 0 19px;
+  border: 1px solid #263146;
+  margin-top: 30px;
+  margin: 30 auto;
 }
 
 .comment h1 {
