@@ -16,7 +16,7 @@ body {
   padding: 19px 20px 0 19px;
   border: 1px solid #263146;
   margin-top: 30px;
-  margin: 30 auto;
+  margin: 30px 30px ;
 }
 
 .comment h1 {
@@ -50,9 +50,12 @@ body {
   border: none;
   cursor: pointer;
   text-decoration: none;
-  transition: .3s;
+  transition: .3s ease-out;
 }
 
 .button:active{
   box-shadow: 0 1px #263146;
+  box-shadow: none;
+  transform: translateY(3px);
+
 }
