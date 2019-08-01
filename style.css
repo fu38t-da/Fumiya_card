@@ -4,18 +4,17 @@
   font-family: 'ヒラギノ角ゴ ProN',sans-serif;
 }
 
-.wrapper {
-  width: 1000px;
+body {
+  width: 800px;
   margin: 0 auto;
 }
 
 .container {
-  display: inline-block;
   box-sizing: border-box;
   width: 315px;
   padding: 19px 20px 0 19px;
   border: 1px solid #263146;
-  margin-top: 30px ;
+  margin: 30px auto ;
 }
 
 .comment h1 {
@@ -58,3 +57,25 @@
   transform: translateY(3px);
 
 }
+
+/* tablet MediaQuery */
+@media only screen and (min-width:768px) {
+  body {
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(315px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* tablet MediaQuery end */
+
+/* PC MediaQuery */
+@media only screen and (min-width:1024px) {
+  body {
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(315px, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* PC MediaQuery end */
